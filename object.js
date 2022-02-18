@@ -3,7 +3,17 @@ const prod1 = {
     sobrenome: 'Senna',
     familia: 'Aruaceiros',
 }
-console.log(prod1)
+prod1.classe = 'Humana'
 
-console.log(typeof Object)
+function Obj(nome) {
+    this.nome = nome
+}
+
+const obj2 = new Obj('Mesa')
+console.log(obj2.nome)
+
+let valor = 0;
+console.log(valor++)
+console.log(valor)
+console.log(++valor)
 
